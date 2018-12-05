@@ -14,7 +14,7 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("mySlides fade");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -31,11 +31,12 @@ function showSlides(n) {
 //attempt at javascript Quiz
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
-    {   title: 'You Are This Thing',
-        desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/tXTjD9k.jpg"/>'},
-    {   title: 'You Are That Thing',
+    {   title: 'You Are An Expresso Martini',
+        desc: '<p> Serious and introverted, you prefer your own space over socialising with others.'
+      },
+    {   title: 'You Are Sex on the Beach',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>'},
-    {   title: 'You Are This Other Thing',
+    {   title: 'You Are a White Russian',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/WXox0Yv.jpg"/>'},
     {   title: 'You Are This One Thing',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'},

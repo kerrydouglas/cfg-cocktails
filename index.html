@@ -1,9 +1,9 @@
 
 <!DOCTYPE html>
-<!--test --> 
+<!--test -->
 <html>
 <head>
-  <link href="/normalize.css" rel="stylesheet">
+  <!---<link href="css/normalize.css" rel="stylesheet">--->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -11,10 +11,11 @@
   <script src="Javascript/test.js"> </script>
 </head>
 
-<body>
+<body onload="showSlides()"> <!--- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onload --->
   <header>
     <img src="https://i.imgur.com/bLQ6swb.png" alt="In The Mix" class="banner">
     <p>
+        <div style="width:100%" class ="dropdowndivider">
     <div class="dropdown">
       <button class="dropbtn">Recipes ▼</button>
       <div class="dropdown-content">
@@ -45,8 +46,9 @@
     </div>
   </header>
 <p>
+  <p>
+    <div class="slideshow-container">
   <!-- Slideshow container -->
-  <div class="slideshow-container">
 
     <!-- Full-width images with number-->
     <div class="mySlides fade">
@@ -78,24 +80,31 @@
   </div>
 
 <!--text and contents of the website-->
-<div class = "contents">
-  <table>
-    <th>
-    Top Wines of the week</th>
-    <th> Whiskeys for Winter </th>
-    <td class = "contentsimg">
-      <img src = "https://i.imgur.com/bLQ6swb.png">
-    </td>
-    <td class = "contentsimg">
-      <img src = "https://i.imgur.com/bLQ6swb.png">
-    </td>
-    <td>
+<div class ="contents">
+<div class = "col sm 3 col-md-6 col-lg-4">
+  <div class="row">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula libero vitae
 pretim sollicitudin. Aliquam venenatis ligula a scelerisque dignissim. Donec urna diam,
 iaculis sit amet nibh ut, tristique pretium massa. Integer hendrerit, sapien nec
 fringilla imperdiet, orci est bibendum sapien, non tempor libero tellus a erat.
 Morbi at justo at neque pellentesque lacinia bibendum id tortor.</td>
-  <td>
+  <p>
+Nulla semper tellus et porttitor tincidunt. Mauris at augue ullamcorper ante accumsan bibendum.
+Aenean nec purus metus. Nam scelerisque ac lectus non congue. Donec eget mauris quis
+mauris laoreet imperdiet a eget nulla. Nam non quam est. Maecenas risus nisi, varius
+a pellentesque pretium, cursus ac ex. Fusce sapien magna, congue lobortis commodo a,
+convallis ac diam. Sed faucibus urna sit amet ex pharetra volutpat.
+</div>
+  <div class="row">
+Nulla nec neque at tellus interdum placerat. Ut odio lorem, accumsan ac soda.
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula libero vitae
+pretim sollicitudin. Aliquam venenatis ligula a scelerisque dignissim. Donec urna diam,
+iaculis sit amet nibh ut, tristique pretium massa. Integer hendrerit, sapien nec
+fringilla imperdiet, orci est bibendum sapien, non tempor libero tellus a erat.
+Morbi at justo at neque pellentesque lacinia bibendum id tortor.</td>
+
+<p>
 Nulla semper tellus et porttitor tincidunt. Mauris at augue ullamcorper ante accumsan bibendum.
 Aenean nec purus metus. Nam scelerisque ac lectus non congue. Donec eget mauris quis
 mauris laoreet imperdiet a eget nulla. Nam non quam est. Maecenas risus nisi, varius
@@ -103,7 +112,9 @@ a pellentesque pretium, cursus ac ex. Fusce sapien magna, congue lobortis commod
 convallis ac diam. Sed faucibus urna sit amet ex pharetra volutpat.
 
 Nulla nec neque at tellus interdum placerat. Ut odio lorem, accumsan ac soda.
-</td>
+<p>
+</div>
+</div>
 </div>
 
   <!-- footer table from here on out-->
@@ -114,65 +125,3 @@ Copyright 2018
 </footer>
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html>
-<head>
-  <link href="/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="Javascript/test.js"> </script>
-</head>
-
-<body>
-  <header>
-    <img src="https://i.imgur.com/bLQ6swb.png" alt="In The Mix" class="banner">
-    <p>
-    <div class="dropdown">
-      <button class="dropbtn">Recipes ▼</button>
-      <div class="dropdown-content">
-        <ul>
-          <li><a href="#">Vodka</a></li>
-          <li><a href="#">Rum</a></li>
-          <li><a href="#">Whisky</a></li>
-          <li><a href="#">Gin</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">About ▼</button>
-      <div class="dropdown-content">
-        <ul>
-          <li><a href="#">Meet The Team</a></li>
-          <li><a href="#">What is In The Mix</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Contact Us</button>
-    </div>
-    <div class="search">
-        <input type="text" placeholder="Search..">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </div>
-    </div>
-    <div class="flexslider">
-    <ul class="slides">
-      <div class="w3-content w3-display-container">
-        <li>
-            <a href="url"><img class = "myslides" src="https://i.imgur.com/pmvAmmw.png" alt="Quiz Link"></a>
-        </li>
-        <li>
-            <a href="url"><img class = "myslides" src="https://i.imgur.com/lAaRPHJ.png" alt="Christmas link" class = "myslides"></a>
-        </li>
-    </ul>
-    </div>
-</div>
-
-
-  </header>
-</body>
-</html>
-
