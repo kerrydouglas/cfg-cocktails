@@ -1,3 +1,4 @@
+
 @import "compass/css3";
 
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One);
@@ -81,7 +82,7 @@ h1,h2,p {
       display: block;
       padding: 1%;
       margin: 1em 10%;
-      @include border-radius(10px);
+@include border-radius(10px);
   }
   .answer-wrap {
       @extend .question-wrap;

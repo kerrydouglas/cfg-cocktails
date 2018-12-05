@@ -32,7 +32,18 @@ li {
     display: block;
     padding: 5px;
   }
+
 }
+
+.search-box {
+  height : 20px;
+  font-size: 16px;
+}
+
+.social {
+  display : inline;
+}
+
 .banner {
   align : center;
   height : 300px;
@@ -41,16 +52,14 @@ li {
 /* drop down menu bar and search box*/
 .dropbtn {
   padding: 10px;
-  background-color: #db7094;
-  color: white;
+  background-color: white;
+  color: #db7094;
   padding: 10px;
 font-size: 20px;
   border: none;
-  font-family: cursive;
+  font-family: 'cursive';
 }
 .dropdown {
-  border-top : solid black;
-  border-bottom : solid black;
   margin-right : 30px;
   position: relative;
   display: inline-block;
@@ -63,25 +72,35 @@ font-size: 20px;
    margin-right: 16px;
    font-size: 17px;
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
   min-width: 10px;
   z-index: 1;
-  font-family: cursive;
+  font-family: 'cursive';
   color: white;
   font-size: 20px;
 }
 .dropdown-content a {
   color: white;
-  padding: #px #px;
+  width: 100%;
   text-decoration: none;
   display: block;
 }
+.dropdowndivider {
+  background-color: white;
+  border-color: black;
+  border-left: 2px;
+  border-right: 2px;
+  border-style:double;
+}
+
 .dropdown-content a:hover {background-color: #d43668;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #fdc2c2;}
 
+/*image slideshow*/
 
 * {box-sizing:border-box}
 
@@ -96,6 +115,7 @@ font-size: 20px;
 .mySlides {
   display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -167,19 +187,11 @@ font-size: 20px;
 }
 /*contents and body of homepage*/
 .contents {
-  font-size : 28;
-  font-family : serif;
+  font-size : 16px;
+  font-family : arial;
   color : black;
-  text-align : justify;
-  margin-right : 200px;
-  margin-left : 200px;
-}
-.contents td {
-
-}
-.contentsimg {
-  width : 100px;
-  height : 100px;
+  padding-right: 100px;
+  padding-left: 100px;
 }
 .active, .contentsimg:hover {
     color: rgba(0,0,0,0.8);
@@ -194,7 +206,7 @@ font-size: 20px;
     border-top : 10px;
     border-top-width : 100%;
     border-top-color : black;
-    background-color: #a6a6a6
+    background-color: #a6a6a6;
 }
 .footercontents {
   font-family: monospace;
@@ -202,4 +214,5 @@ font-size: 20px;
   font size : 36px;
   font-weight : bold;
   color: white;
-  background-color: #a6a6a6;}
+  background-color: #a6a6a6;
+}
