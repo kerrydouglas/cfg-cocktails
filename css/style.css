@@ -33,12 +33,17 @@ li {
     padding: 5px;
   }
 
-input {
-  height : 24px;
-  font-size: 24px;
 }
 
+.search-box {
+  height : 20px;
+  font-size: 16px;
 }
+
+.social {
+  display : inline;
+}
+
 .banner {
   align : center;
   height : 300px;
@@ -110,6 +115,7 @@ font-size: 20px;
 .mySlides {
   display: none;
 }
+
 
 /* Next & previous buttons */
 .prev, .next {
