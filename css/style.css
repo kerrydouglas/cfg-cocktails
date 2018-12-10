@@ -1,3 +1,8 @@
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
  body {
   background-color: white;
 }
@@ -10,9 +15,15 @@ a {
   color: white;
 }
 h1 {
+  padding: 5px;
+  text-align: center;
   font-size: 50px;
-  color:  #948195;
+  color:  #db7094;
   font-family: 'cursive';
+}
+h2 {
+  font-size: 25px;
+  color:  #db7094;
 }
 ul {
   padding: 10px;
@@ -24,10 +35,6 @@ li {
 }
 @media (max-width: 500px) {
 
-  h1 {
-    font-size: 36px;
-    font-family: 'cursive';
-  }
   li {
     display: block;
     padding: 5px;
@@ -64,15 +71,6 @@ font-size: 20px;
   position: relative;
   display: inline-block;
 }
-.search {
-  display : inline-block;
-   padding: 6px;
-   border: none;
-   margin-top: 8px;
-   margin-right: 16px;
-   font-size: 17px;
-}
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -84,6 +82,7 @@ font-size: 20px;
 }
 .dropdown-content a {
   color: white;
+  margin-right: 30px;
   width: 100%;
   text-decoration: none;
   display: block;
@@ -99,6 +98,78 @@ font-size: 20px;
 .dropdown-content a:hover {background-color: #d43668;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #fdc2c2;}
+/*search box and button*/
+
+* {
+    box-sizing: border-box;
+}
+form.example {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    width: 250px;
+    background: #f1f1f1;
+}
+
+
+form.example button {
+    float: right;
+    height: 35px;
+    width:50px;
+    background: #db7094;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #ee9fb9;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*social media buttons*/
+
+.fa {
+  float:left;
+  font-size: 30px;
+  text-align: center;
+  height: 35px;
+  width:35px;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 10px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
 
 /*image slideshow*/
 
@@ -111,10 +182,7 @@ font-size: 20px;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+
 
 
 /* Next & previous buttons */
@@ -198,11 +266,9 @@ font-size: 20px;
 }
 
 /*footer*/
-.footer {
+footer {
     bottom: 0;
     width: 100%;
-    height: 300px;
-    position : fixed;
     border-top : 10px;
     border-top-width : 100%;
     border-top-color : black;
