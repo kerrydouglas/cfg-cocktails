@@ -257,6 +257,7 @@ font-size: 20px;
 
 .recipe p {
   margin-bottom: 0;
+  height: #px;
 }
 
 .alcoholcontent {
@@ -267,4 +268,12 @@ font-size: 20px;
   text-align: center;
   font-family: cursive;
   font-size: 30px;
+}
+
+.cocktailimage {
+  position: center;
+}
+
+.showdescription small {
+  opacity :1;
 }
