@@ -392,10 +392,30 @@ footer {
   font-size: 30px;
 }
 
+.namerum {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.detailsrum {
+  color: white;
+}
+
 .cocktailimage {
   position: center;
 }
 
 .showdescription small {
   opacity :1;
+}
+
+.beaker {
+  fill: 000;
+  stroke: white;
+}
+
+h6 {
+  text-align: center;
 }
