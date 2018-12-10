@@ -273,6 +273,7 @@ form.search::after {
 
 .newsletter {
   background : grey;
+  height: 100px;
 }
 
 /* form for newsletter*/
@@ -298,7 +299,7 @@ form.email input[type=text] {
 form.email button {
     float: right;
     display: inline-block;
-    height: 50px;
+    height: 45px;
     width:20%;
     background: #db7094;
     color: white;
