@@ -28,6 +28,7 @@ h2 {
   color:  white;
   background-color: #db7094;
   text-align : center;
+  color:  #948195;
 }
 ul {
   padding: 10px;
@@ -63,7 +64,7 @@ li {
   padding: 10px;
 font-size: 20px;
   border: none;
-  font-family: 'cursive';
+  font-family: cursive;
 }
 .dropdown {
   margin-right : 30px;
@@ -75,7 +76,7 @@ font-size: 20px;
   position: absolute;
   min-width: 10px;
   z-index: 1;
-  font-family: 'cursive';
+  font-family: cursive;
   color: white;
   font-size: 20px;
 }
@@ -91,7 +92,7 @@ font-size: 20px;
   border-color: black;
   border-left: 2px;
   border-right: 2px;
-  border-style:double;
+  border-style: double;
 }
 
 .dropdown-content a:hover {background-color: #d43668;}
@@ -336,4 +337,65 @@ footer {
   font-weight : bold;
   color: white;
   background-color: #a6a6a6;
+}
+
+
+/*recipes*/
+.ingredient {
+  font-size: 50px;
+  color:  #948195;
+  font-family: cursive;
+  text-align: center;
+  padding: 1em;
+}
+
+.cocktail-image {
+  width: inherit;
+  height: inherit;
+}
+
+.cosmo {
+  background-image: url(../images/cosmo.jpg);
+}
+
+.moscowmule {
+  background-image: url(../images/moscow.jpg);
+}
+
+.image-container {
+  position: relative;
+}
+
+.recipe {
+  position: absolute;
+    bottom: 0;
+    right: 20px;
+    background-color: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.recipe p {
+  margin-bottom: 0;
+  height: #px;
+}
+
+.alcoholcontent {
+  position: inherit;
+}
+
+.name {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.cocktailimage {
+  position: center;
+}
+
+.showdescription small {
+  opacity :1;
 }
