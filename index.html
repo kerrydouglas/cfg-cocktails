@@ -19,7 +19,7 @@
 
 <body> <!--- https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onload --->
   <header>
-    <img src="https://i.imgur.com/bLQ6swb.png" alt="In The Mix" class="banner">
+    <a href="index.html"><img src="https://i.imgur.com/bLQ6swb.png" alt="In The Mix" class="banner"></a>
     <p>
         <div style="width:100%" class ="dropdowndivider">
     <div class="dropdown">
@@ -37,17 +37,17 @@
       <button class="dropbtn">About ▼</button>
       <div class="dropdown-content">
         <ul>
-          <li><a href="#">Meet The Team</a></li>
-          <li><a href="#">What is In The Mix</a></li>
+          <li><a href="aboutus.html">Meet The Team</a></li>
+          <li><a href="aboutus.html">What is In The Mix</a></li>
         </ul>
       </div>
     </div>
     <div class="dropdown">
       <button class="dropbtn">Contact Us</button>
     </div>
-    <form class="example" action="/action_page.php">
+    <form class="search" action="/action_page.php">
       <input type="text" placeholder="Search.." name="search2">
-      <button type="submit">⯮</button>
+      <button type="submit">Go</button>
     </form>
 <a href="www.facebook.com" class="fa fa-facebook"></a>
 <a href="www.instagram.com" class="fa fa-instagram"></a>
@@ -81,47 +81,49 @@
 
 <!--text and contents of the website-->
 <div class ="contents">
+  <h1> News & Updates </h1>
   <div class="row">
     <div class = "col-md-4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula libero vitae
-      pretim sollicitudin. Aliquam venenatis ligula a scelerisque dignissim. Donec urna diam,
-      iaculis sit amet nibh ut, tristique pretium massa. Integer hendrerit, sapien nec
-      fringilla imperdiet, orci est bibendum sapien, non tempor libero tellus a erat.
-      Morbi at justo at neque pellentesque lacinia bibendum id tortor.
+      <a href = "https://www.independent.co.uk/life-style/kfc-gravy-cocktail-recipes-finger-lickin-sour-the-southern-twist-a8160301.html">
+      <img class = "blogimg" src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/01/15/15/kfc-gravy-cocktails-the-gravy-mary.jpg?w660" style="width:100%">
+    </a>KFC have launched their new cocktail, and while we expected something out of the ordinary
+     we didn't expect to find out that their cocktail is made from - wait for it - gravy. This unusual mixture will
+     only be available in a few select stores - but we welcome our readers to have a go at making their own versions.
+     You can submit your recipes <a href = "contactus.html"> here! </a>The best recipe will be entered in a prize
+     draw. <a href = "whiskeyrecipes.html" class = "link">See more here </a>
     </div>
     <div class = "col-md-4">
+      <a href = "https://www.independent.co.uk/life-style/food-and-drink/vodka-martini-recipe-cocktail-shaken-stirred-grey-goose-gin-and-tonic-alcohol-a8634221.html">
+        <img class = "blogimg" src = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/11/14/19/istock-90150166.jpg?w968" style="width:100%"></a>
       Nulla semper tellus et porttitor tincidunt. Mauris at augue ullamcorper ante accumsan bibendum.
       Aenean nec purus metus. Nam scelerisque ac lectus non congue. Donec eget mauris quis
       mauris laoreet imperdiet a eget nulla. Nam non quam est. Maecenas risus nisi, varius
       a pellentesque pretium, cursus ac ex. Fusce sapien magna, congue lobortis commodo a,
-      convallis ac diam. Sed faucibus urna sit amet ex pharetra volutpat.
+      convallis ac diam. Sed faucibus urna sit amet ex pharetra volutpat. <a href = "whiskeyrecipes.html" class = "link">See more here </a>
     </div>
-    <div class = "col-md-4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula libero vitae
-      pretim sollicitudin. Aliquam venenatis ligula a scelerisque dignissim. Donec urna diam,
-      iaculis sit amet nibh ut, tristique pretium massa. Integer hendrerit, sapien nec
-      fringilla imperdiet, orci est bibendum sapien, non tempor libero tellus a erat.
-      Morbi at justo at neque pellentesque lacinia bibendum id tortor.
+    <div class = "col-md-4" class = "blog">
+        <img class = "blogimg" src = "https://i.imgur.com/ixCgyAi.jpg?1" style="width:100%">
+      Tis the season! We've been experimenting with new eggnog and gingerbread inspired cocktails to warm you
+      and your guests this holiday season. Our new blog post shows you 5 exciting christmas-y cocktails
+      for all your merry mixing needs. <a href = "whiskeyrecipes.html" class = "link">See more here </a>
 </div>
 </div>
+  <div class = "newsletter">
 <p>
-<h1> Find out more! </h1>
 <p>
-<h2>Nulla nec neque at tellus interdum placerat. Ut odio lorem, accumsan ac soda.</h2>
+<h2> Sign up for our newsletter to receive weekly cocktail recipes, blog posts, and more!</h2>
 <p>
-Nulla semper tellus et porttitor tincidunt. Mauris at augue ullamcorper ante accumsan bibendum.
-Aenean nec purus metus. Nam scelerisque ac lectus non congue. Donec eget mauris quis
-mauris laoreet imperdiet a eget nulla. Nam non quam est. Maecenas risus nisi, varius
-a pellentesque pretium, cursus ac ex. Fusce sapien magna, congue lobortis commodo a,
-convallis ac diam. Sed faucibus urna sit amet ex pharetra volutpat.
 
-Nulla nec neque at tellus interdum placerat. Ut odio lorem, accumsan ac soda.
+  <form class="email" action="/action_page.php">
+    <input type="text" placeholder="Enter your email...">
+    <button type="submit">Sign Up</button>
+  </form></div>
 <p>
 
   <!-- footer table from here on out-->
   <footer>
   <div style="width:100%" class ="footercontents">
-Copyright 2018
+©2018
 </div>
 </footer>
 </body>
