@@ -37,6 +37,12 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
+/* newsletter sign up thanks */
+  function newsletterthanks() {
+  alert("Thank you for signing up! You will receive email confirmation shortly.");
+}
+
 //attempt at javascript Quiz
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
