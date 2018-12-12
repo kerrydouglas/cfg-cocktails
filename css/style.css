@@ -28,6 +28,12 @@ h2 {
   background-color: #db7094;
   text-align : center;
 }
+h3 {
+  font-size: 16px;
+  color:  black;
+  text-align : center;
+}
+}
 ul {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
