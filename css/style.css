@@ -60,7 +60,7 @@ li {
   background-color: white;
   color: #db7094;
   padding: 10px;
-font-size: 20px;
+  font-size: 20px;
   border: none;
   font-family: cursive;
 }
@@ -92,10 +92,18 @@ font-size: 20px;
   border-right: 2px;
   border-style: double;
 }
-
+.dropbtn a{  padding: 10px;
+  background-color: white;
+  color: #db7094;
+  padding: 10px;
+font-size: 20px;
+  border: none;
+  font-family: cursive;
+}
 .dropdown-content a:hover {background-color: #d43668;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #fdc2c2;}
+.dropbtn a:hover {background-color: #fdc2c2; text-decoration: none;}
 /*search box and button*/
 
 * {
