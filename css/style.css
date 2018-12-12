@@ -96,6 +96,7 @@ font-size: 20px;
 .dropdown-content a:hover {background-color: #d43668;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #fdc2c2;}
+.dropbtn a:hover {background-color: #d43668; text-decoration: none; color:#ed8eac}
 /*search box and button*/
 
 * {
@@ -155,6 +156,7 @@ form.search::after {
 }
 .fa:hover {
     opacity: 0.7;
+    text-decoration: none;
 }
 .fa-twitter {
   background: #55ACEE;
@@ -295,7 +297,6 @@ form.search::after {
 }
 .link {
   color : #db7094;
-  text-decoration: underline;
 }
 
 .newsletter {
