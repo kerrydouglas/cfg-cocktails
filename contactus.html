@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--test -->
 <html>
 <head>
   <link href="/normalize.css" rel="stylesheet">
@@ -17,10 +18,10 @@
       <button class="dropbtn">Recipes ▼</button>
       <div class="dropdown-content">
         <ul>
-          <li><a href="vodkarecipes.html">Vodka</a></li>
-          <li><a href="rumrecipes.html">Rum</a></li>
-          <li><a href="whiskyrecipes.html">Whisky</a></li>
-          <li><a href="ginrecipes.html">Gin</a></li>
+          <li><a href="#">Vodka</a></li>
+          <li><a href="#">Rum</a></li>
+          <li><a href="#">Whisky</a></li>
+          <li><a href="#">Gin</a></li>
         </ul>
       </div>
     </div>
@@ -41,4 +42,39 @@
         <button type="submit"><i class="fa fa-search"></i></button>
       </div>
     </div>
+  </header>
+
+  <p>At In the Mix, We are here to provide you with more information, sugguestions, and all the answers to any questions
+       you may have to help you create wonderful cocktails.</p><br/>
+
+<p> Please leave us a mesage and we will contact you back.</p><br/>
+
+<div id="after_submit"></div>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Your name:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="25" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Your email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="25" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label for="Question">Question</label>
+    <select id="selection" name="Question">
+      <option value="Spirits">Spirits</option>
+      <option value="Mixing">Mixing</option>
+      <option value="Other">Other</option>
+    </select>
+    </div>
+  </div>
+    <label class="required" for="message">Your Message:</label><br />
+    <textarea id="message" class="input" name="message" rows=7 cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+
+    <input id="submit_button" type="submit" value="Send email" />
+</form>
 </body>
