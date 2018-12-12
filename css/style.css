@@ -446,3 +446,14 @@ footer {
 h6 {
   text-align: center;
 }
+
+.namegin {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: white;
+}
+
+.detailsgin {
+  color: white;
+}
