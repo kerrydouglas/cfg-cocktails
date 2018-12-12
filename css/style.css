@@ -475,3 +475,8 @@ h6 {
 .ingredient h1{
   font-family: cursive;
 }
+
+.form {
+  margin-left: 40%;
+  text-align: center;
+}
